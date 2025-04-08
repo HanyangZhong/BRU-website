@@ -198,7 +198,7 @@ const buttons = [
   font-family: "MyFont", Verdana, sans-serif;
   letter-spacing: 2px;
   font-size: 42px;
-  margin: 32px;
+  margin: 10px;
   text-align: center;
 }
 
