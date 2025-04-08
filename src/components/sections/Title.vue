@@ -93,7 +93,7 @@ const buttons = [
   {
     disabled: false,
     name: "Results",
-    link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
+    link: "https://github.com/HanyangZhong/BRU-datasets",
     component: Document,
   },
   {
