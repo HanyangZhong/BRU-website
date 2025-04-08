@@ -7,7 +7,7 @@ import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@eleme
 const logo = ''
 
 // 标题
-const title = 'MLLM-FaSS: Multimodal Large Language Model-Based Robotic Framework for Fabric Sorting and Selection'
+const title = 'Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions'
 
 // 标题颜色
 const title_color = '#000000'
@@ -26,28 +26,23 @@ const authors = [
   {
     name: "Liman Wang",
     homepage: "https://limanwang.github.io/#/",
-    address_flag: "1,"
+    address_flag: "1,#"
   },
   {
     name: "Hanyang Zhong",
     homepage: "https://hanyangzhong.github.io/",
-    address_flag: "1,"
+    address_flag: "1,#"
   },
   {
-    name: "Tianyuan Wang",
-    homepage: "",
-    address_flag: "1,"
-  },
-  {
-    name: "Shan Luo",
+    name: "Wenting Cao",
     homepage: "",
     address_flag: "2,"
   },
   {
-    name: "Jihong Zhu",
+    name: "Zeyuan Sun",
     homepage: "",
-    address_flag: "1,#"
-  },
+    address_flag: "3,"
+  }
 ]
 
 // 地址清单（包含地址名称、头像、主页、地址序号）
@@ -66,14 +61,14 @@ const addresses = [
 
 // 共一和通讯提示
 const con_and_corresponding_author = 
-  "#: corresponding author. "
+  "#: Equal contribution. "
 
 // 最新消息
-const news = "🔥 [2025-2-28] Our website is continuously being updated."
+const news = "🔥 [2025-4-8] Our website is continuously being updated."
 
 // 强调内容
 const emphases = [
-  "🎉 [arXiv 2025] Paper (Under Review)"
+  "🎉 [Cogsci 2025] Accepted Paper (Poster)"
 ]
 
 // 提供引导资料链接
