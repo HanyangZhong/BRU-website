@@ -173,23 +173,20 @@ const buttons = [
     </el-row>
 
     <!-- 提供引导按钮 -->
-    <el-row justify="center" style="margin-bottom: 20px;">
-      <el-col :span="20">
+    <el-row justify="center" style="margin-bottom: 5px;">
+      <el-col :span="5">
         <el-row justify="center">
-          <el-col v-for="button in buttons" :key="button.name" :span="4" style="text-align: center;">
-            <a :href="button.link" v-if="!button.disabled">
-              <el-button class="guidance-button" size="default" :color="btn_color" round>
-                <el-icon :size="18">
-                  <component :is="button.component" />
-                </el-icon>
-                <span class="btn-text">{{ button.name }}</span>
-              </el-button>
-            </a>
-          </el-col>
+          <a :href=button.link v-for="button in buttons">
+            <el-button class="guidance-button" size="default" :color="btn_color" :disabled="button.disabled" round>
+              <el-icon :size="18">
+                <component :is="button.component" />
+              </el-icon>
+              <span class="btn-text">{{ button.name }}</span>
+            </el-button>
+          </a>
         </el-row>
       </el-col>
     </el-row>
-
 
   </div>
 </template>
