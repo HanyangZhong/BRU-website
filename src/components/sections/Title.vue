@@ -50,7 +50,7 @@ const addresses = [
   {
     address_flag: "1",
     name: "University of York",
-    homepage: "https://www.york.ac.uk/"
+    homepage: "https://www.york.ac.uk/about/"
   },
   {
     address_flag: "2",
@@ -99,7 +99,7 @@ const buttons = [
   {
     disabled: false,
     name: "Dataset",
-    link: "https://huggingface.co/datasets/hzlama/BRU-dataset#bru-dataset-balancing-rigor-and-utility-for-testing-cognitive-biases-in-llms",
+    link: "https://huggingface.co/datasets/hzlama/BRU-dataset",
     component: Files,
   }
 ]
