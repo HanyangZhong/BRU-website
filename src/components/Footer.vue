@@ -24,7 +24,6 @@ const links = {
           <a :href="links.Vite">Vite</a>, and
           <a :href="links.ElementPlus">Element Plus</a>.<br/>
           
-          You can fork🛠️ / star✨/ PR📃 from <a :href="links.template">here</a>.
         </p>
       </el-row>
     </el-watermark>
