@@ -5,8 +5,8 @@ import { HomeFilled, SuccessFilled } from '@element-plus/icons-vue'
 
 // 个人主页
 const home = {
-    name: "Fabric-llama",
-    link: "",
+    name: "BRU-dataset",
+    link: "https://huggingface.co/datasets/hzlama/BRU-dataset#bru-dataset-balancing-rigor-and-utility-for-testing-cognitive-biases-in-llms",
 }
 
 // 项目主页
@@ -24,10 +24,6 @@ const more_paper = {
     "LLMSAP": {
         name: "LLM-SAP - ICME 2024",
         link: "https://github.com/HanyangZhong/Situational_Planning_datasets",
-    },
-    "BRU": {
-        name: "Balancing Rigor and Utility - arXiv",
-        link: "https://arxiv.org/abs/2406.10999",
     }
 }
 
@@ -64,9 +60,6 @@ const more_paper = {
             </el-menu-item>
             <el-menu-item index="2-2">
                 <a :href=more_paper.LLMSAP.link>{{ more_paper.LLMSAP.name }}</a>
-            </el-menu-item>
-            <el-menu-item index="2-3">
-                <a :href=more_paper.BRU.link>{{ more_paper.BRU.name }}</a>
             </el-menu-item>
         </el-sub-menu>
 
