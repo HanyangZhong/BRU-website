@@ -54,6 +54,11 @@ const addresses = [
   },
   {
     address_flag: "2",
+    name: "Friedrich Schiller University Jena",
+    homepage: "https://www.uni-jena.de/en"
+  },
+  {
+    address_flag: "3",
     name: "King’s College London",
     homepage: "https://www.kcl.ac.uk/"
   },
