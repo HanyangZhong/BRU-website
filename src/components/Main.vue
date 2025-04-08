@@ -24,7 +24,6 @@ export default {
     Markdown,
     BibTeX,
     Collapse,
-    SeletionForComparison,
     Model3D,
     GaussianSplats3D
   }
