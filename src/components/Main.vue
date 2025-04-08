@@ -23,7 +23,6 @@ export default {
     Abstract,
     Markdown,
     BibTeX,
-    Collapse,
     Model3D,
     GaussianSplats3D
   }
