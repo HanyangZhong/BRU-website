@@ -34,7 +34,7 @@ const links = {
 
 /* 页脚背景 */
 .bg {
-  background-color: rgb(101, 247, 43);
+  background-color: rgba(101, 247, 43, 0.2);
 }
 
 /* 页脚文字 */
