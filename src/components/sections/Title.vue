@@ -102,6 +102,13 @@ const buttons = [
     link: "https://huggingface.co/datasets/hzlama/BRU-dataset",
     component: Files,
   }
+  ,
+  {
+    disabled: false,
+    name: "Cogsci2025",
+    link: "https://cognitivesciencesociety.org/cogsci-2025/",
+    component: Files,
+  }
 ]
 
 </script>
@@ -112,7 +119,7 @@ const buttons = [
     <!-- 最新消息提示 -->
     <el-row justify="center">
       <el-col :span="24">
-        <el-alert title="🔥 This template is still under development." type="success" />
+        <el-alert title="🔥 This paper is accepted by Cogsci2025." type="success" />
       </el-col>
     </el-row>
 
