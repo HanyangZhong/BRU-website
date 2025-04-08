@@ -20,9 +20,9 @@ export default {
       ],
       // 选择要轮播的照片
       image_paths: [
-        "./carousel/modify_first_00.png",
-        "./carousel/combine_pressing_00.png",
-        "./carousel/post_new_00.png",
+        "./carousel/figure02_new.png",
+        "./carousel/new_figure4.png",
+        "./carousel/frames.png",
       ],
     }
   }
