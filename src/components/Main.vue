@@ -25,9 +25,7 @@ export default {
     BibTeX,
     ImageSliderInner,
     ImageSelector,
-    Echart,
     Collapse,
-    Table,
     SeletionForComparison,
     Model3D,
     GaussianSplats3D
