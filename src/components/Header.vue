@@ -5,29 +5,29 @@ import { HomeFilled, SuccessFilled } from '@element-plus/icons-vue'
 
 // 个人主页
 const home = {
-    name: "My Blog",
-    link: "https://junyaohu.github.io/",
+    name: "Fabric-llama",
+    link: "",
 }
 
 // 项目主页
 const logo = {
-    name: "Template",
+    name: "Details page",
     link: "#",
 }
 
 // 右侧更多菜单
 const more_paper = {
-    "ExtDM": {
-        name: "ExtDM - CVPR 2024",
-        link: "https://zzcheng.top/ExtDM/",
+    "FENet": {
+        name: "FENet - ICME 2024",
+        link: "https://github.com/HanyangZhong/FENet",
     },
-    "MPOT": {
-        name: "MPOT - ICCV 2023",
-        link: "https://zzcheng.top/MPOT/",
+    "LLMSAP": {
+        name: "LLM-SAP - ICME 2024",
+        link: "https://github.com/HanyangZhong/Situational_Planning_datasets",
     },
-    "ControlNet": {
-        name: "ControlNet - ICCV 2023",
-        link: "https://github.com/lllyasviel/ControlNet",
+    "BRU": {
+        name: "Balancing Rigor and Utility - arXiv",
+        link: "https://arxiv.org/abs/2406.10999",
     }
 }
 
@@ -60,13 +60,13 @@ const more_paper = {
         <el-sub-menu index="2">
             <template #title>More</template>
             <el-menu-item index="2-1">
-                <a :href=more_paper.ExtDM.link>{{ more_paper.ExtDM.name }}</a>
+                <a :href=more_paper.FENet.link>{{ more_paper.FENet.name }}</a>
             </el-menu-item>
             <el-menu-item index="2-2">
-                <a :href=more_paper.MPOT.link>{{ more_paper.MPOT.name }}</a>
+                <a :href=more_paper.LLMSAP.link>{{ more_paper.LLMSAP.name }}</a>
             </el-menu-item>
             <el-menu-item index="2-3">
-                <a :href=more_paper.ControlNet.link>{{ more_paper.ControlNet.name }}</a>
+                <a :href=more_paper.BRU.link>{{ more_paper.BRU.name }}</a>
             </el-menu-item>
         </el-sub-menu>
 

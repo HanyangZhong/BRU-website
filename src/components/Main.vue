@@ -23,16 +23,14 @@ export default {
     Abstract,
     Markdown,
     BibTeX,
-    Carousel,
     Video,
-    ImageSlider,
+    Carousel,
     ImageSliderInner,
     ImageSelector,
     Echart,
     Collapse,
     Table,
     SeletionForComparison,
-    Comment,
     Latex,
     Model3D,
     GaussianSplats3D
@@ -50,12 +48,6 @@ export default {
   <Table/>
   <Collapse/>
   <Echart/>
-  <Model3D/>
-  <GaussianSplats3D/>
   <SeletionForComparison/>
-  <ImageSliderInner/>
-  <ImageSlider/>
-  <ImageSelector/>
   <BibTeX/>
-  <Comment/>
 </template>

@@ -20,12 +20,9 @@ export default {
       ],
       // 选择要轮播的照片
       image_paths: [
-        "./carousel/1.jpg",
-        "./carousel/2.jpg",
-        "./carousel/3.jpg",
-        "./carousel/4.jpg",
-        "./carousel/5.jpg",
-        "./carousel/6.jpg",
+        "./carousel/modify_first_00.png",
+        "./carousel/combine_pressing_00.png",
+        "./carousel/post_new_00.png",
       ],
     }
   }
@@ -63,7 +60,7 @@ export default {
         }"
         >
         <swiper-slide v-for="path in image_paths">
-          <el-image :src="path"/>
+          <el-image :src="path" style="width: 80%; height: 500px; object-fit: cover;"/>
         </swiper-slide>
       </swiper>
     </el-col>
