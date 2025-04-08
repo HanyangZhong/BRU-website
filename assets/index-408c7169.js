@@ -61,7 +61,7 @@ var Vne=Object.defineProperty;var $ne=(n,e,t)=>e in n?Vne(n,e,{enumerable:!0,con
 `,rr(e.li,{children:["🚫 LLMs exhibit fewer fallacies when given the option to ",rr(e.em,{children:`say "I don't know"`}),"."]}),`
 `]}),`
 `,rr(e.h1,{children:"Our Workflow"}),`
-`,rr(e.p,{children:rr(e.img,{src:"./public/carousel/figure02_new.png",alt:"QA examples from GPT-4. The Conjunction Fallacy is a subset of cognitive biases. Scaling the scope of bias inspection can influence rational deviations, thereby impacting the outcomes of LLMs' reasoning. To address this, we propose a feedback loop Bias Detection module to identify the type of bias and adjust the inspection scope when an abstention from answering is considered. This approach ensures that LLMs provide more accurate responses by systematically addressing biases during decision-making."})}),`
+`,rr(e.p,{children:rr(e.img,{src:"./carousel/figure02_new.png",alt:"QA examples from GPT-4. The Conjunction Fallacy is a subset of cognitive biases. Scaling the scope of bias inspection can influence rational deviations, thereby impacting the outcomes of LLMs' reasoning. To address this, we propose a feedback loop Bias Detection module to identify the type of bias and adjust the inspection scope when an abstention from answering is considered. This approach ensures that LLMs provide more accurate responses by systematically addressing biases during decision-making."})}),`
 `,rr(e.h1,{children:"Dataset information"}),`
 `,rr(e.p,{children:rr(e.img,{src:"./carousel/frames.png",alt:"Figure Title"})}),`
 `,rr(e.p,{children:rr(e.img,{src:"./carousel/new_first2.png",alt:"Figure Title"})}),`
