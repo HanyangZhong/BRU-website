@@ -79,22 +79,28 @@ const emphases = [
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: false,
+    disabled: true,
     name: "Paper",
+    link: "https://arxiv.org/abs/2406.10999",
+    component: Document,
+  },
+  {
+    disabled: false,
+    name: "ArXiv",
+    link: "https://arxiv.org/abs/2406.10999",
+    component: Document,
+  },
+  {
+    disabled: false,
+    name: "Results",
     link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
     component: Document,
   },
   {
-    disabled: true,
-    name: "Code",
-    link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
-    component: Files,
-  },
-  {
     disabled: false,
-    name: "Video",
-    link: "https://youtu.be/VApx-VtDDSY",
-    component: Film,
+    name: "Dataset",
+    link: "https://huggingface.co/datasets/hzlama/BRU-dataset#bru-dataset-balancing-rigor-and-utility-for-testing-cognitive-biases-in-llms",
+    component: Files,
   }
 ]
 
