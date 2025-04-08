@@ -176,17 +176,20 @@ const buttons = [
     <el-row justify="center" style="margin-bottom: 20px;">
       <el-col :span="20">
         <el-row justify="center">
-          <a :href=button.link v-for="button in buttons">
-            <el-button class="guidance-button" size="default" :color="btn_color" :disabled="button.disabled" round>
-              <el-icon :size="18">
-                <component :is="button.component" />
-              </el-icon>
-              <span class="btn-text">{{ button.name }}</span>
-            </el-button>
-          </a>
+          <el-col v-for="button in buttons" :key="button.name" :span="4" style="text-align: center;">
+            <a :href="button.link" v-if="!button.disabled">
+              <el-button class="guidance-button" size="default" :color="btn_color" round>
+                <el-icon :size="18">
+                  <component :is="button.component" />
+                </el-icon>
+                <span class="btn-text">{{ button.name }}</span>
+              </el-button>
+            </a>
+          </el-col>
         </el-row>
       </el-col>
     </el-row>
+
 
   </div>
 </template>
