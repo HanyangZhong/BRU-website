@@ -23,8 +23,6 @@ export default {
     Abstract,
     Markdown,
     BibTeX,
-    ImageSliderInner,
-    ImageSelector,
     Collapse,
     SeletionForComparison,
     Model3D,
