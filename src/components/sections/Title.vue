@@ -119,7 +119,7 @@ const buttons = [
     <!-- 最新消息提示 -->
     <el-row justify="center">
       <el-col :span="24">
-        <el-alert title="🔥 This paper is accepted by Cogsci2025." type="success" />
+        <el-alert title="🔥 This paper is accepted as a full paper publication by Cogsci2025." type="success" />
       </el-col>
     </el-row>
 
