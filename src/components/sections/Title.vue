@@ -60,7 +60,7 @@ const addresses = [
   {
     address_flag: "3",
     name: "King’s College London",
-    homepage: "https://www.kcl.ac.uk/"
+    homepage: "https://www.kcl.ac.uk/about"
   },
 ]
 
