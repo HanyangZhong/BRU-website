@@ -1,3 +1,4 @@
+# Introduction
 This project investigates how large language models (LLMs) handle **cognitive biases** during multiple-choice question answering (MCQA), challenging the prevailing assumption that all biases are harmful. Instead, we explore how certain *rational deviations*—biases that mimic human heuristics—can sometimes enhance decision-making efficiency.
 
 We introduce **heuristic moderation** and a novel **abstention mechanism**, enabling LLMs to refrain from answering when uncertain. This approach significantly reduces error rates and improves answer validity. Our experiments, conducted on the newly developed **BRU (Balance Rigor and Utility)** dataset, show that selective bias inspection—especially *Specific Bias Inspection (SBI)*—combined with abstention leads to substantial performance gains in models like GPT-4 and Gemini 1.0 Pro.
@@ -14,10 +15,11 @@ We introduce **heuristic moderation** and a novel **abstention mechanism**, enab
 - 💡 SBI consistently outperforms General Bias Inspection (GBI), showing the value of targeted prompting.
 - 🚫 LLMs exhibit fewer fallacies when given the option to *say "I don't know"*.
 
----
+# Our Workflow
 
 ![QA examples from GPT-4. The Conjunction Fallacy is a subset of cognitive biases. Scaling the scope of bias inspection can influence rational deviations, thereby impacting the outcomes of LLMs' reasoning. To address this, we propose a feedback loop Bias Detection module to identify the type of bias and adjust the inspection scope when an abstention from answering is considered. This approach ensures that LLMs provide more accurate responses by systematically addressing biases during decision-making.](./public/carousel/figure02_new.png)
 
+# Dataset information
 
 ![Figure Title](./public/carousel/frames.png)
 
