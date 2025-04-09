@@ -13,7 +13,7 @@ const links = {
   
   <div class="bg">
     
-    <el-watermark :content="['JunyaoHu', 'Academic Project', 'Page Template']" :gap="['60','0']" :z-index="0">
+    <el-watermark :content="['BRU dataset', 'Cogsci 2025', 'Full paper']" :gap="['60','0']" :z-index="0">
       <el-row justify="center">
         <p class="footer">
           This template is inspired by 
@@ -34,7 +34,7 @@ const links = {
 
 /* 页脚背景 */
 .bg {
-  background-color: rgba(101, 247, 43, 0.2);
+  background-color: rgba(101, 247, 43, 0.4);
 }
 
 /* 页脚文字 */

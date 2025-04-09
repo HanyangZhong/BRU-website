@@ -22,6 +22,7 @@ export default {
     Title,
     Abstract,
     Markdown,
+    Carousel,
     BibTeX,
     Model3D,
     GaussianSplats3D
