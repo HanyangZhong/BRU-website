@@ -24,13 +24,13 @@ const btn_color = '#444444'
 // 作者清单（包含作者姓名、头像、主页、地址序号）
 const authors = [
   {
-    name: "Liman Wang",
-    homepage: "https://limanwang.github.io/#/",
+    name: "Hanyang Zhong",
+    homepage: "https://hanyangzhong.github.io/",
     address_flag: "1,#"
   },
   {
-    name: "Hanyang Zhong",
-    homepage: "https://hanyangzhong.github.io/",
+    name: "Liman Wang",
+    homepage: "https://limanwang.github.io/#/",
     address_flag: "1,#"
   },
   {
