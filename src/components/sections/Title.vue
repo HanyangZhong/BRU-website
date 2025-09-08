@@ -81,7 +81,7 @@ const buttons = [
   {
     disabled: false,
     name: "Paper",
-    link: "https://https://escholarship.org/uc/item/2vr690cx",
+    link: "https://escholarship.org/uc/item/2vr690cx",
     component: Document,
   },
   {
