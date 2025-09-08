@@ -21,6 +21,7 @@ export default {
   components: {
     Title,
     Abstract,
+    Video,
     Markdown,
     BibTeX,
     Model3D,
