@@ -86,6 +86,12 @@ const buttons = [
   },
   {
     disabled: false,
+    name: "Poster",
+    link: "https://escholarship.org/uc/item/2vr690cx",
+    component: Document,
+  },
+  {
+    disabled: false,
     name: "ArXiv",
     link: "https://arxiv.org/abs/2406.10999",
     component: Document,
