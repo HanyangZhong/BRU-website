@@ -3,14 +3,17 @@ export default {
   data() {
     return {
       bibtex: [
-        "@misc{wang2024balancingrigorutilitymitigating,",
-        "   title={Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions}, ",
-        "   author={Liman Wang and Hanyang Zhong and Wenting Cao and Zeyuan Sun},",
-        "   year={2024},",
-        "   eprint={2406.10999},",
-        "   archivePrefix={arXiv},",
-        "   primaryClass={cs.CL},",
-        "   url={https://arxiv.org/abs/2406.10999}, ",
+        "@inproceedings{zhong2025balancing,",
+        "title     = {Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions},",
+        "author    = {Zhong, H. and Wang, L. and Cao, Wenting and Sun, Zeyuan},",
+        "booktitle = {Proceedings of the Annual Meeting of the Cognitive Science Society},",
+        "volume    = {47},",
+        "year      = {2025},",
+        "publisher = {Cognitive Science Society},",
+        "url       = {https://escholarship.org/uc/item/2vr690cx}",
+}
+
+}",
         "}",
       ],
     }
