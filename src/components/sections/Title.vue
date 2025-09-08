@@ -87,7 +87,7 @@ const buttons = [
   {
     disabled: false,
     name: "Poster",
-    link: "https://escholarship.org/uc/item/2vr690cx",
+    link: "https://github.com/HanyangZhong/BRU-website/tree/main/src/assets/font/CogSci_BRU_Poster.pdf",
     component: Document,
   },
   {
