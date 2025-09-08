@@ -11,9 +11,6 @@ export default {
         "year      = {2025},",
         "publisher = {Cognitive Science Society},",
         "url       = {https://escholarship.org/uc/item/2vr690cx}",
-}
-
-}",
         "}",
       ],
     }
