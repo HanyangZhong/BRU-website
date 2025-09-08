@@ -69,7 +69,7 @@ const con_and_corresponding_author =
   "#: Equal contribution. "
 
 // 最新消息
-const news = "🔥 [2025-4-8] Our website is continuously being updated."
+const news = "🔥 [2025-9-9] Our website is continuously being updated."
 
 // 强调内容
 const emphases = [
@@ -79,9 +79,9 @@ const emphases = [
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
+    disabled: false,
     name: "Paper",
-    link: "https://arxiv.org/abs/2406.10999",
+    link: "https://https://escholarship.org/uc/item/2vr690cx",
     component: Document,
   },
   {
