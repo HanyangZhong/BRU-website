@@ -90,6 +90,12 @@ const buttons = [
     link: "https://github.com/HanyangZhong/BRU-website/tree/main/src/assets/font/CogSci_BRU_Poster.pdf",
     component: Document,
   },
+{
+    disabled: false,
+    name: "Video",
+    link: "https://www.youtube.com/watch?v=zBppe17zXSo",
+    component: Video,
+  },
   {
     disabled: false,
     name: "ArXiv",
