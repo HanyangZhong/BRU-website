@@ -94,7 +94,7 @@ const buttons = [
     disabled: false,
     name: "Video",
     link: "https://www.youtube.com/watch?v=zBppe17zXSo",
-    component: Video,
+    component: Film,
   },
   {
     disabled: false,
