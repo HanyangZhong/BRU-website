@@ -15,7 +15,7 @@
         
         <!-- bilibili -->
         <el-container class="video-container">
-          <iframe src="https://youtu.be/zBppe17zXSo" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+          <iframe src="https://www.bilibili.com/video/BV1V8WazxE7p/?vd_source=1829ffeed034cdadbc059a53f4ed77f3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
         </el-container>
 
       </el-col>
