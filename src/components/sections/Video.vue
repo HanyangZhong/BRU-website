@@ -9,17 +9,21 @@
       <h1 class="section-title">Explainer Video</h1>
     </el-row>
 
-    <!-- 每个网站的视频的iframe可能不一致，最好在这里手动调整 -->
     <el-row justify="center">
-      <el-col :xs="24" :sm="30" :md="16" :lg="12" :xl="10" >
-        
-        <!-- bilibili -->
-        <el-container class="video-container">
-          <iframe src="https://www.bilibili.com/video/BV1V8WazxE7p/?vd_source=1829ffeed034cdadbc059a53f4ed77f3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-        </el-container>
-
-      </el-col>
-    </el-row>
+  <el-col :xs="24" :sm="30" :md="16" :lg="12" :xl="10">
+    <el-container class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe 
+        src="//player.bilibili.com/player.html?bvid=BV1V8WazxE7p&autoplay=0" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      </iframe>
+    </el-container>
+  </el-col>
+</el-row>
   </div>
 </template>
 
