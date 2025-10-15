@@ -11,7 +11,7 @@
 
     <!-- 每个网站的视频的iframe可能不一致，最好在这里手动调整 -->
     <el-row justify="center">
-      <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="10" >
+      <el-col :xs="24" :sm="30" :md="16" :lg="12" :xl="10" >
         
         <!-- bilibili -->
         <el-container class="video-container">
